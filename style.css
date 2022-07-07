@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+body {
+    --default: #ffd370;
+    --dark: #333;
+    --gray: #9f9a91;
+    --light: #efefef;
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    color: var(--dark);
+    background-image: linear-gradient(
+        174deg,
+        var(--default) 2%,
+        var(--default) 46%,
+        #ffffff 46%,
+        #ffffff 100%,
+        #e8e8e8 100%
+      );
+    letter-spacing: 0.07em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: "Baloo Tamma 2";
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+  }
+
+.container {
+    margin: 3rem auto 1.5rem auto;
+    padding: 0 12px;
+    width: 500px;
+    @media (max-width: 575px) {
+      margin-top: 1.5rem;
+    }
+  }
