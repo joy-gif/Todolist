@@ -107,7 +107,7 @@ input[type="text"]::placeholder {
     width: 100%;
     border-bottom: 2px solid var(--light);
 }
-li:active {
+li.active {
     border-bottom: 2px solid var(--dark);
     color: var(--dark);
     font-weight: bold;
